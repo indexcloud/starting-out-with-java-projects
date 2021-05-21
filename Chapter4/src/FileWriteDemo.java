@@ -11,7 +11,7 @@ public class FileWriteDemo {
         Scanner keyboard = new Scanner(System.in);
 
         // Get the number of friends.
-        System.out.print("How many friedns do you have? ");
+        System.out.print("How many friends do you have? ");
         numFriends = keyboard.nextInt();
 
         //  Consume the remaining newline character.
