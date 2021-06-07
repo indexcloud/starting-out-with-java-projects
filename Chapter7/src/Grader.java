@@ -49,7 +49,8 @@ public class Grader {
         if (testScores.length < 2) {
             System.out.println("ERROR: You must have at least two test scores!");
             average = 0;
-        } else {
+        }
+        else {
             // First, calculate the total of the scores.
             for (double score : testScores) {
                 total += score;
