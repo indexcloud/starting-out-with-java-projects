@@ -31,5 +31,7 @@ public class ArrayListDemo3 {
         {
             System.out.println("Index: " + index + " name: " + nameList.get(index));
         }
+
+        System.out.println(nameList);
     }
 }
