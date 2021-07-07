@@ -17,6 +17,11 @@ public class Stock {
         sharePrice = price;
     }
 
+    public Stock(Stock object2) {
+        symbol = object2.symbol;
+        sharePrice = object2.sharePrice;
+    }
+
     public String getSymbol() {
         return symbol;
     }
