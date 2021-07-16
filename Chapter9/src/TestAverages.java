@@ -9,7 +9,7 @@ public class TestAverages {
         double average;
         int studentNumber = 1;
 
-        TestScoreReader scoreReader = new TestScoreReader("Grades.csv");
+        TestScoreReader scoreReader = new TestScoreReader("/Grades.csv");
 
         while (scoreReader.readNextLine()) {
             average = scoreReader.getAverage();
