@@ -56,7 +56,7 @@ public class Car {
     /**
      * equals method
      * @param obj Another object to compare this object to.
-     * @return true is the two objecrts are equal, false otherwise.
+     * @return true is the two objects are equal, false otherwise.
      */
     public boolean equals(Object obj)
     {

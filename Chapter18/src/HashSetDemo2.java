@@ -7,7 +7,7 @@ public class HashSetDemo2 {
 
         Iterator<String> it = nameSet.iterator();
 
-        System.out.println("Here are the names in teh set.");
+        System.out.println("Here are the names in the set.");
         while(it.hasNext())
         {
             System.out.println(it.next());
