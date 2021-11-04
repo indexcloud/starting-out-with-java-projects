@@ -46,6 +46,6 @@ public class StreamReductionsDemo {
         //Get a stream and reduce with max.
         stooges = Stream.of(stoogesArray0);
         Optional<String> max = stooges.max(String::compareTo);
-        System.out.printf("Last stooge by alphabetic ordder: %s\n", max.get());
+        System.out.printf("Last stooge by alphabetic order: %s\n", max.get());
     }
 }
